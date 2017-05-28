@@ -30,3 +30,17 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+#Collections
+collections:
+ - projects
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+
+
+

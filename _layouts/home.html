@@ -20,11 +20,29 @@ layout: default
 </div>
 </div>
 </div>
-<div class="container" id="projects">
-<div class="projects card">
-<div class="card-block">
-<h4>My Projects</h4>
+<!-- About -->
+    <section id="projects">
+        <div class="container">
+            <div class="row">
+            <div class="projects card">
+            <div class="card-block">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Projects</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        {% for project in site.projects %}
+                          {% include project.html title=project.title timeline=project.timeline content=project.content %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
 </div>
-</div>
-</div>
+    </section>
+
 </div>
