@@ -115,7 +115,7 @@
 }
 
 .site-footer a{
-  color: #bc477b;
+  color: $link-color;
   &:visited {
     color: $link-color;
   }
@@ -268,3 +268,26 @@
     }
   }
 }
+
+/**
+* Banner
+*/
+
+.banner a {
+  color: $white;
+  min-width: 150px;
+  padding: 10px 0;
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+  &:visited {
+    color: $white;
+  }
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+

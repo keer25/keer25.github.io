@@ -1,9 +1,10 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+$brand-primary: #523249 !default;
 
 @import "bootstrap";
+@import "bootstrap-grid";
+@import "bootstrap-reboot";
 @import "minima";
 @import "fontawesome/font-awesome";
-
-
