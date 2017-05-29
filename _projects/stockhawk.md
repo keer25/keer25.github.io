@@ -2,8 +2,8 @@
 title : StockHawk
 order : 8
 timeline : Jan 2017
-src: assets/images/projects/
-link :
+src: assets/images/projects/stockhawk.png
+link : https://drive.google.com/open?id=0B0cmCKgXUt7cQjl4WWc5aUVyS2s
 repo : StockHawk
 ---
 

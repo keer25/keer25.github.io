@@ -2,8 +2,8 @@
 title : Build-it-Bigger
 order : 11
 timeline : May 2017
-src: assets/images/projects/
-link :
+src: assets/images/projects/build.png
+link : https://drive.google.com/open?id=0B0cmCKgXUt7cNlZEMjQxNklBdW8
 repo : Build-it-Bigger
 ---
 
