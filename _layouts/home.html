@@ -37,10 +37,11 @@ layout: default
                        {% assign count = 0 %}
                         {% for project in sorted %}
                           {% assign i = count | modulo:2 %}
+                          {% assign github= "https://github.com/keer25/" | append: project.repo %}
                           {% if i == 0 %}
-                            {% include project.html title=project.title timeline=project.timeline content=project.content src=project.src class="timeline" %}
+                            {% include project.html title=project.title timeline=project.timeline content=project.content src=project.src class="timeline" link=project.link repo=github %}
                           {% else %}
-                            {% include project.html title=project.title timeline=project.timeline content=project.content src=project.src class="timeline-inverted" %}
+                            {% include project.html title=project.title timeline=project.timeline content=project.content src=project.src class="timeline-inverted" link=project.link repo=github %}
                           {% endif %}
                           {% assign count = count | plus: 1 %}
                         {% endfor %}

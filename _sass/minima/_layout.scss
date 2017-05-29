@@ -387,7 +387,7 @@
             margin-top: 0;
             &.subheading {
                 text-transform: none;
-                color: $link-color
+                color: $grey-two;
             }
         }
     }
@@ -396,6 +396,7 @@
         > ul {
             margin-bottom: 0;
             color: $grey-three;
+            font-size: 85%;
         }
     }
 }
