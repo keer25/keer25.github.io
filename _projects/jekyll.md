@@ -7,4 +7,4 @@ link : https://keer25.github.io/
 repo : keer25.github.io
 ---
 
-A Jekyll based portfolio website. Frontend Framework with booststrap.
+A Jekyll based portfolio website. Frontend Framework with bootstrap.
