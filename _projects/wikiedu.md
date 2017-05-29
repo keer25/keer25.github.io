@@ -1,6 +1,6 @@
 ---
 title : Wiki Education Dashboard
-order : 12
+order : 13
 timeline : Feb 2017 - Present
 src: assets/images/projects/
 link : https://summerofcode.withgoogle.com/projects/#6155513503940608

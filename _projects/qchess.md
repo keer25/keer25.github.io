@@ -1,7 +1,7 @@
 ---
 title : Quantum Chess
 order : 5
-timeline : Jul 2016 - Nov 2017
+timeline : Jul 2016 - Nov 2016
 src: assets/images/projects/
 link : http://qchess.bitballoon.com/
 repo : Quantum-Chess
