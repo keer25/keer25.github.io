@@ -1,7 +1,7 @@
 ---
 title : Wiki Education Dashboard
 order : 13
-timeline : Feb 2017 - Present
+timeline : Feb 2017 - Sep 2017
 src: assets/images/projects/wikiedu.png
 link : https://summerofcode.withgoogle.com/projects/#6155513503940608
 repo : WikiEduDashboard
